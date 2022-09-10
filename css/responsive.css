@@ -1,0 +1,275 @@
+/* ------------------------------------------------------------------------------------ */
+@media only screen and (max-width: 600px) {
+
+    /* BANNER -----------------------------------------------------------------------------------------*/
+    .bannerContainer {
+        height: auto;
+    }
+
+    .bannerContainer h1 {
+        font-size: 7.5rem;
+        font-weight: 400;
+        margin-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    /* HIKING  -----------------------------------------------------------------------------------------*/
+    .titleContainerResponsive {
+        display: flex;
+        height: auto;
+        width: 70%;
+    }
+
+    .titleContainerResponsive h2 {
+        font-size: 45px;
+    }
+
+    .titleContainer {
+        display: none;
+    }
+
+    .circle1 {
+        width: 99px;
+        height: 99px;
+        margin-top: 35px;
+        margin-left: 60px;
+    }
+
+    .circle2 {
+        width: 300px;
+        height: 300px;
+        margin-left: 0px;
+        margin-top: 0;
+        margin-left: 70px;
+    }
+
+    /* STUNNING  -----------------------------------------------------------------------------------------*/
+    .stunningCircle {
+        margin: 0px;
+        width: 99px;
+        height: 99px;
+    }
+
+    .stunningContainer {
+        padding: 40px;
+    }
+
+    /* AMAZING PLACES -----------------------------------------------------------------------------------------*/
+    .amazingCircle h1 {
+        font-family: 'Playfair Display',serif;
+        font-weight: 400;
+        font-size: 40px;
+        padding-top: 50px ;
+        padding-left: 50px;
+    }
+
+    /* FOOTER -----------------------------------------------------------------------------------------*/
+    .linksContainer a {
+        padding: 3px;
+        font-size: 11px;
+    }
+
+    /* GALLERY  -----------------------------------------------------------------------------------------*/
+    .show {
+        width: 350px;
+        height: 300px;
+    }
+
+}
+
+/* ------------------------------------------------------------------------------------ */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    
+
+    /* BANNER -----------------------------------------------------------------------------------------*/
+    .bannerContainer {
+        height: auto;
+    }
+
+    .bannerContainer h1 {
+        font-size: 7.5rem;
+        font-weight: 400;
+        margin-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    /* HIKING  -----------------------------------------------------------------------------------------*/
+    .titleContainerResponsive {
+        display: flex;
+        height: auto;
+        width: 70%;
+    }
+
+    .titleContainerResponsive h2 {
+        font-size: 45px;
+    }
+
+    .titleContainer {
+        display: none;
+    }
+
+    .circle1 {
+        width: 150px;
+        height: 150px;
+        margin-top: 35px;
+        margin-left: 60px;
+    }
+
+    .circle2 {
+        width: 400px;
+        height: 400px;
+        margin-left: 0px;
+        margin-top: 0;
+        margin-left: 70px;
+    }
+
+    /* STUNNING  -----------------------------------------------------------------------------------------*/
+    .stunningCircle {
+        margin: 0px;
+        width: 99px;
+        height: 99px;
+    }
+
+    /* FOOTER -----------------------------------------------------------------------------------------*/
+    .linksContainer a {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    /* GALLERY  -----------------------------------------------------------------------------------------*/
+    .show {
+        width: 380px;
+        height: 330px;
+    }
+
+}
+
+/* ------------------------------------------------------------------------------------ */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+    /* BANNER -----------------------------------------------------------------------------------------*/
+    .bannerContainer {
+        height: auto;
+    }
+
+    .bannerContainer h1 {
+        font-size: 11.75rem;
+        font-weight: 400;
+        margin-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    /* HIKING  -----------------------------------------------------------------------------------------*/
+    .titleContainerResponsive {
+        display: none;
+        height: auto;
+        width: 70%;
+    }
+
+    .titleContainerResponsive h2 {
+        font-size: 45px;
+    }
+
+    .titleContainer {
+        display: flex;
+        height: auto;
+    }
+
+    .circle1 {
+        width: 80px;
+        height: 80px;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+
+    .circle2 {
+        width: 230px;
+        height: 230px;
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    /* STUNNING  -----------------------------------------------------------------------------------------*/
+    .stunningCircle {
+        margin: 0px;
+        width: 99px;
+        height: 99px;
+    }
+
+    /* FOOTER -----------------------------------------------------------------------------------------*/
+    .linksContainer a {
+        padding: 3px;
+        font-size: 11px;
+    }
+
+    /* GALLERY  -----------------------------------------------------------------------------------------*/
+    .show {
+        width: 380px;
+        height: 330px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------ */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    /* BANNER -----------------------------------------------------------------------------------------*/
+    .bannerContainer {
+        height: auto;
+    }
+
+    .bannerContainer h1 {
+        font-size: 11.25rem;
+        font-weight: 400;
+        margin-top: 100px;
+        padding-bottom: 30px;
+    }
+
+    /* HIKING  -----------------------------------------------------------------------------------------*/
+
+    h2 {
+        font-size: 70px;
+    }
+
+    .titleContainer {
+        display: flex;
+        height: auto;
+    }
+
+    .circle1 {
+        width: 99px;
+        height: 99px;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+
+    .circle2 {
+        width: 400px;
+        height: 400px;
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+
+    /* STUNNING  -----------------------------------------------------------------------------------------*/
+    .stunningCircle {
+        margin-right: 250px;
+        width: 99px;
+        height: 99px;
+    }
+
+    /* ADVENTURE -----------------------------------------------------------------------------------------*/
+    .adventureCircle2 {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------ */
+@media only screen and (min-width: 1200px) {
+
+    
+}

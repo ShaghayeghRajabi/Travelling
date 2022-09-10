@@ -1,0 +1,501 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* NAV -----------------------------------------------------------------------------------------*/
+.sidenavContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: #3d3d3d58;
+    z-index: 999;
+    position: fixed;
+    display: none;
+}
+
+.sidnav {
+    height: 100vh;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.sidenavClosebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.sidenavLinksContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sidenavLinksContainer a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #cae6d6;
+    transition: 0.3s;
+}
+
+.sidenavLinksContainer a:hover {
+    color: #cae6d65f;
+}
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbarIcon {
+    width: 64px;
+    height: 64px;
+}
+
+.openbtn {
+    font-size: 32px;
+    padding-top: 8px;
+    transition: .08s .08s ease;
+}
+
+.openbtn:hover {
+    color: rgb(250, 190, 69);
+    cursor: pointer;
+}
+
+/* BANNER -----------------------------------------------------------------------------------------*/
+.bannerContainer {
+    background-image: url(../img/-min.jpg);
+    width: 100%;
+    height: 86%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannerContainer h1 {
+  font-family: 'Playfair Display', serif !important;
+  font-size: 13.75rem;
+  line-height: 1; 
+  color: #ffffff !important;
+  font-weight: 400;
+  margin-top: 200px;
+  padding-bottom: 70px;
+}
+
+/* TRAVEL AGENCY  -----------------------------------------------------------------------------------------*/
+.travelagencyContainer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.travelagencyText {
+    padding: 20px;
+}
+
+.travelagencyText h3 {
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-family: 'Playfair Display',serif;
+}
+
+.travelagencyparagraph {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 15px;
+}
+
+/* HIKING  -----------------------------------------------------------------------------------------*/
+.hiking {
+    margin-top: 50px;
+}
+
+.hikingContainer {
+    padding: 20px;
+}
+
+.circle1 {
+    background-color: #cae6d6;
+    border-radius: 50%;
+    width: 126px;
+    height: 126px;
+}
+
+.circle2 {
+    border-radius: 50%;
+    background-image: url(../img/drt.jpg);
+    width: 465px;
+    height: 465px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    margin-left: -80px;
+}
+
+h2 {
+    font-weight: 950;
+    line-height: 1.1;
+    font-size: 85px;
+    font-family: 'Playfair Display',serif;
+}
+
+.titleContainer {
+    display: flex;
+    height: 520px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.titleContainerResponsive {
+    display: none;
+    height: 520px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+/* STUNNING  -----------------------------------------------------------------------------------------*/
+.stunningContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.stunning h4 , h5{
+    font-weight: 300;
+    font-size: 45px;
+    font-family: 'Playfair Display', serif !important;
+}
+
+.stunning h4 {
+    font-weight: 800 !important;
+    font-size: 50px !important;
+}
+
+.stunningCircle {
+    margin-right: 90px;
+    width: 147px;
+    height: 147px;
+}
+
+.stunning {
+    margin-top: 60px;
+}
+
+/* STUNNING PARAGRAPH  -----------------------------------------------------------------------------------------*/
+.stunningParagraph {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 15px;
+}
+
+.readMore {
+    border-bottom: 2px solid black;
+    color: black;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.readMore:hover {
+    text-decoration: none;
+    color: black;
+    color: #528769 !important;
+    border-color: #528769 !important;
+}
+
+/* GALLERY  -----------------------------------------------------------------------------------------*/
+.galleryContainer {
+    margin-top: 50px;
+}
+
+.galleryImg {
+    width: 100%;
+    height: 350px;
+}
+
+.imagesContainer {
+    padding: 5px;
+}
+
+.showContainer {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.show {
+    width: 550px;
+    height: 500px;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+/* Europe Hiking Tours -----------------------------------------------------------------------------------------*/
+.EuropeContainer {
+    background-image: url(../img/-min-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.toursContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.headersEuropeContainer {
+    background-color:rgba(19, 19, 19, 0.514);
+    color: #ffffff;
+    padding-bottom: 300px;
+}
+
+.headersEuropeContainer h2 {
+    font-weight: 400;
+    font-family: 'Playfair Display',serif;
+    text-align: right;
+    font-size: 75px;
+    padding-right: 10px;
+}
+
+.headersEuropeContainer h3 {
+    font-weight: 100;
+    line-height: 1.2;
+    font-family: 'Playfair Display',serif;
+    letter-spacing: 5px;
+    text-align: right;
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+.europeTextContainer {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.europeTextContainer p {
+    font-style: italic;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6;
+    padding: 8px;
+}
+
+.europeTourContainer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.iconsContainer {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.europeIcon {
+    padding: 8px;
+}
+
+.europeIcon:hover {
+    cursor: pointer;
+}
+
+
+/* AMAZING PLACES -----------------------------------------------------------------------------------------*/
+.amazingContainer {
+    margin-top: 40px;
+}
+
+.amazingCircle {
+    width: 270px;
+    height: 270px;
+    background-color: #cae6d6;
+    border-radius: 50%;
+}
+
+.amazingCircle h1 {
+    font-family: 'Playfair Display',serif;
+    font-weight: 400;
+    font-size: 70px;
+    padding-top: 50px ;
+    padding-left: 50px;
+}
+
+h1 span {
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+.amazingPara {
+    padding-left: 50px;
+    font-size: 16px;
+}
+
+/* IMAGE GALLARY -----------------------------------------------------------------------------------------*/
+.imageGallaryContainer {
+    margin-top: 40px;
+}
+
+.imageGallaryContainer img {
+    width: 100%;
+    padding: 8px;
+    height: 50%;
+}
+
+.imageContainer {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 1000px;
+}
+
+.column2 {
+    height: 33.33% !important;
+}
+
+/* BEST PLACES -----------------------------------------------------------------------------------------*/
+.bestContainer {
+    margin-top: 60px;
+    background-image: url(../img/pexelsphoto3334048.jpeg);
+    width: 100%;
+    height: 86%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bestContainer h1 {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 12.75rem;
+    line-height: 1; 
+    color: #ffffff !important;
+    font-weight: 10;
+    word-wrap: break-word;
+    text-align: right;
+}
+
+.bestPlacesContainer {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 90px;
+}
+
+/* ADVENTURE -----------------------------------------------------------------------------------------*/
+.adventureContainer {
+    margin-top: 60px;
+}
+
+.adventureAbout {
+    font-family: 'Open Sans',sans-serif !important;
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.adventureH2 {
+    font-family: 'Playfair Display',serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.adventurePara {
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Open Sans',sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.adventureWrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.readMoreContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adventureCircle1 {
+    width: 94px;
+    height: 94px;
+    background-color: #cae6d6;
+    border-radius: 50%;
+}
+
+.adventureIconsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.adventureCircle2 {
+    background-image: url(../img/rtrtt-min.jpg);
+    border-radius: 50%;
+    width: 321px;
+    height: 321px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* FOOTER -----------------------------------------------------------------------------------------*/
+.footerContainer {
+    margin-top: 40px;
+    background-color: #333333;;
+}
+
+.iconAndLinksContainer {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linksContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linksContainer a {
+    color: #ffffff;
+}
+
+.linksContainer a:hover {
+    text-decoration: none;
+    color: #898989;
+}
+
+.footerIcon {
+    width: 64px;
+    height: 64px;
+}
